@@ -1,0 +1,162 @@
+*{
+    font-family:'Poppins', sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+.top-half{
+    background-color: #0089ED;
+    width: 100%;
+    height: 400px;
+}
+.top-half a{
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    top: 5%;
+    left: 3%;
+}
+.guide{
+    width: 300px;
+    position: relative;
+    top: 15%;
+    left: 7%;
+    color: #ffffff;
+}
+.image{
+    position: relative;
+    top: 10%;
+    left: 25%;
+    transform: translateY(-70%);
+}
+.bottom-half{
+    background-color: #ffffff;
+    width: 100%;
+    height: 400px;
+}
+.login-as{
+    position: relative;
+    top: 3%
+}
+.bottom-half p{
+    position: relative;
+    left: 3%;
+    top: 3%;
+}
+.prev-user{
+    background-color: #EFF8FF;
+    width: 150px;
+    padding: 10px;
+    position: relative;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 20px;
+}
+.prev-user p:nth-child(3){
+    color: #a0a0a0;
+}
+.login-as{
+    display: flex;
+    position: relative;
+    left: 3%;
+    top: 5%;
+}
+.sign-in-link{
+    display: flex;
+    margin: 10px;
+}
+.sign-in-form{
+    width: 40%;
+    height: 650px;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    background-color: #fff;
+    border-radius: 50px;
+}
+.sign-in-google{
+    background-color: #E9F1FF;
+    margin-right: 15px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.sign-in-social{
+    background-color: #F6F6F6;
+    width: 30px;
+    padding: 10px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+.sign-in-form p:nth-child(1){
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+.sign-in-form h1{
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+.sign-in-form p:nth-child(3){
+    position: relative;
+    transform: translateY(-100%);
+    top: 3%;
+    left: 70%;
+}
+#sign-up{
+    position: relative;
+    transform: translateY(-100%);
+    top: 0%;
+    left: 70%;
+}
+#sign-in{
+    position: relative;
+    transform: translateY(-100%);
+    top: 0%;
+    left: 70%;
+}
+.sign-in-link{
+    position: relative;
+    left: 20%;
+    top: 10%;
+}
+.sign-in-form form{
+    position: relative;
+    top: 15%;
+    left: 10%;
+}
+.sign-in-form form label{
+    margin-bottom: 25px;
+}
+#username{
+    margin-bottom: 25px;
+}
+.sign-in-form form input{
+    width: 70%;
+    border-radius: 10px;
+    padding: 10px 10px; 
+    line-height: 28px;
+}
+#submit{
+    border: none;
+    background-color: #0089ED;
+    padding: 20px 10px;
+    width: 75%;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 20px;
+}
+.error{
+    color: red;
+}
+#login{
+    top: 10%;
+}
+.inside-info{
+    display: flex;
+}
+.inside-info div{
+    width: 50%;
+}
+.inside-info div input{
+    width: 40%;
+}
