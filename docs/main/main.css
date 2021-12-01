@@ -160,3 +160,6 @@
 .inside-info div input{
     width: 40%;
 }
+.filler-text{
+    display:none;
+}

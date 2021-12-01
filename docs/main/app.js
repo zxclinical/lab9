@@ -1,35 +1,50 @@
-$(function(){
+$(function () {
     var $loginForm = $("#login");
-    if($loginForm.length){
+    if ($loginForm.length) {
         $loginForm.validate({
-            rules:{
-                username:{
+            rules: {
+                username: {
                     required: true
                 },
-                password:{
+                password: {
                     required: true
                 },
-                userName:{
+                userName: {
                     required: true
                 },
-                contactNumber:{
+                contactNumber: {
                     required: true
                 }
             },
-            messages:{
-                username:{
+            messages: {
+                username: {
                     required: 'required'
                 },
-                password:{
+                password: {
                     required: 'required'
                 },
-                userName:{
+                userName: {
                     required: 'required'
                 },
-                contactNumber:{
+                contactNumber: {
                     required: 'required'
                 }
             }
         })
     }
+});
+
+
+$('.guide').click(function(){
+    $('.filler-text').slideDown('slow');
+});
+
+$('.prev-user').click(function(){
+    anime({
+        targets: '.prev-user',
+        left: '240px',
+        backgroundColor: '#fef',
+        borderRadius: ['0%', '20%'],
+        easing: 'easeInOutQuad'
+      });
 });
